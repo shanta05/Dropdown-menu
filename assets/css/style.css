@@ -82,3 +82,19 @@ a:hover { text-decoration: none }
 .mainmenu-area ul li:hover ul {
     top: 51px;
 }
+.mainmenu-area ul li:hover ul ul{
+    visibility: hidden;
+    opacity: 0
+}
+
+.mainmenu-area ul ul li ul{
+  transition: 0.5s;
+  
+  
+}
+.mainmenu-area ul ul li:hover > ul {
+    top: 0;
+    left: 101px;
+    visibility: visible;
+    opacity: 1;
+}
